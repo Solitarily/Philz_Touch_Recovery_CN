@@ -8,6 +8,8 @@ __Home page__
 http://lt.imobile.com.cn/thread-10614983-1-1.html
 
 如要MTK支持:
+参考 https://github.com/X-s/android_bootable_recovery
+感谢@X-s大神的MTK备份信息 感谢@xiaolu大神的字库文件 感谢@cyanogenmod的核心源码 感谢@philz-cwm6的philztouch源码
 Boardconfig.mk加入
 BOARD_RECOVERY_MTK := true
 
