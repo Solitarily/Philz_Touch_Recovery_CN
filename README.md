@@ -7,11 +7,13 @@ __Home page__
 手机之家首发 酷派大神F2（8675） Philz Touch Recovery 6.56.2 全触控 汉化版
 http://lt.imobile.com.cn/thread-10614983-1-1.html
 
-如要MTK支持:
+
 参考 https://github.com/X-s/android_bootable_recovery
 感谢@X-s大神的MTK备份信息 感谢@xiaolu大神的字库文件 感谢@cyanogenmod的核心源码 感谢@philz-cwm6的philztouch源码
+如要MTK支持:
 Boardconfig.mk加入
 BOARD_RECOVERY_MTK := true
+
 
 If you haven't build recovery ever before, please look up the thread linked above.
 If you regularly build ROMs/Recoveries for your device, and have a working CWM setup
