@@ -15,6 +15,11 @@ http://lt.imobile.com.cn/thread-10614983-1-1.html
 Boardconfig.mk加入
 BOARD_RECOVERY_MTK := true
 
+Clone philz recovery to bootable/recovery-philz folder
+
+    git clone https://github.com/Mr-zeng/Philz_Touch_Recovery_CN bootable/recovery-philz -b cm-11.0
+    
+    
 
 If you haven't build recovery ever before, please look up the thread linked above.
 If you regularly build ROMs/Recoveries for your device, and have a working CWM setup
